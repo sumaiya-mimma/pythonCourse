@@ -37,3 +37,9 @@ print(txt);
 
 txt = "!hello, world,\n ********\n   ****\n     ***\n      **\n       *"
 print(txt)
+
+firstName = "Patrick"
+lastName =   "Dodger"
+fullName = (firstName+' ' + lastName)
+
+print(fullName)
