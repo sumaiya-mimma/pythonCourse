@@ -131,7 +131,28 @@ print(a)
 print(b)
 
 
+#how
+a = 2
+b = 3
+
+a,b = b,a
+
+print(a,b)
+
+#why
+a = 2
+b = 3
+
+a = b
+
+print(a)
+
+a = 2
+b = 3
+
+b = a
+
+print(b)
 
 
-#whyhow
 

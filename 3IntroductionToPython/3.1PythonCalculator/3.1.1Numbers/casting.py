@@ -1,0 +1,8 @@
+a = float(2)
+b = int(5.6)
+c = complex(7.8)
+d = str(a)
+print(a)
+print(b)
+print(c)
+print(d)
