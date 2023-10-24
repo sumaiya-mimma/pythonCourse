@@ -121,17 +121,95 @@
 # print("age:", address)
 
 #39
-pa = 10000
-int = 3.5
-yr = 7
-fv = ((pa)/((1+3.5)*7))
-print(fv)
+# pa = 10000
+# int = 3.5
+# yr = 7
+# fv = ((pa)/((1+3.5)*7))
+# print(fv)
 
 #30
-base = 56
-height = 56
-area = ((base*height)/2)
-print(area)
+# base = 56
+# height = 56
+# area = ((base*height)/2)
+# print(area)
 
- 
+# numbers = [    
+#     386, 462, 47, 418, 907, 344, 236, 375, 823, 566, 597, 978, 328, 615, 953, 345, 
+#     399, 162, 758, 219, 918, 237, 412, 566, 826, 248, 866, 950, 626, 949, 687, 217, 
+#     815, 67, 104, 58, 512, 24, 892, 894, 767, 553, 81, 379, 843, 831, 445, 742, 717, 
+#     958,743, 527
+#     ]
+# for x in range(numbers):
+#     if(x==237):
+#         print(x)
+#         break
+#     elif((x%2)==0):
+#         print(x)
+
+
+
+# number1 = int(input("enter a number : "))
+# print(number1)
+# number2 = int(input("enter a number : "))
+# print(number2)
+# number3 = int(input("enter a number : "))
+# print(number3)
+# if(number1 == number2):
+#     sum = ((number1+number2+number3)==0)
+#     print(sum, "is 0")
+# else:
+#     print("not equal")
+
+
+#34
+# number1 = int(input("enter a number : "))
+# print(number1)
+# number2 = int(input("enter a number : "))
+# print(number2)
+# result = number1 + number2
+# print(result)
+# if(15<result<20):
+#     print(20)
+# else:
+#     print("false")
+
+#38?
+# number1 = int(input("enter a number : "))
+# print(number1)
+# number2 = int(input("enter a number : "))
+# print(number2)
+# if(number1==number2):
+#     print("true")
+# elif((number1+number1)==5) or ((number1-number2)==5):
+#     print("true")
+# else:
+#     print("false")
+
+# x = ("x1","y1")
+# y = ("x2","y2")
+# (x3,y3
+            
+a = [1,3,5,7,9,11,13,15,17,19,21]
+# i = 0
+# while i<=22:
+#     print(a[1])
+#     (a[i])+=1
+#     if(((a[i])%3)==0):
+#         print(a[i])
+#         result =a//3
+#         print((a[i]), "is", result, "times multipliable by 3")
+
+numbers = [ 
+           386, 462, 47, 418, 907, 344, 236, 375, 823, 566, 597, 978, 328, 615, 953, 345, 
+    399, 162, 758, 219, 918, 237, 412, 566, 826, 248, 866, 950, 626, 949, 687, 217, 
+    815, 67, 104, 58, 512, 24, 892, 894, 767, 553, 81, 379, 843, 831, 445, 742, 717, 
+    958,743, 527 
+    ]
+i = 0
+while i<=52:
+    print(numbers[i])
+    (numbers[i])-1
+    if((numbers[i]%2)==0):
+     print(numbers[i])
+
 
