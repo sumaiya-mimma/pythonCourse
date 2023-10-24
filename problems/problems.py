@@ -39,17 +39,151 @@
 # print(myNumbersList)
 
 
+# userList = []
+# userInput = input("enter a list of number seperated by comma(,) : ")
+# userList = userInput.split(",")
+# i = 0
+# while i<len(userList):
+#     userList.append(int(userList[i]))
+#     i=i+1
+#     print(userList)
+    
+    
+    
+# string = "10,20,30"
+# myList = string.split(",")
+# print(myList)
+
+# myNumbersList = []
+# i=0
+# while i<len(myList):
+#     myNumbersList.append(int(myList[i]))
+#     i=i+1
+# print(myNumbersList)
+
+# myNumberList = input("enter a list of number seperated by comma(,) : ")
+
+# print(myNumberList = [ ])
+
+
+# userInput =  input("enter a list of number seperated by comma(,) : ")
+# userTuple = userInput.split(",")
+# userTuple = tuple(userTuple)
+# # print(userList)
+# print(userTuple)
+# myNumbersList = []
+# i=0
+# while i<len(userTuple):
+#     myNumbersList.append(int(userTuple[i]))
+#     i=i+1
+# print(myNumbersList)
+# userList = []
+# userInput = input("enter a list of number seperated by comma(,) : ")
+# userList = userInput.split(",")
+# i = 0
+# while i<len(userList):
+#     userList.append(int(userList[i]))
+#     i=i+1
+#     print(userList)
+    
+
+
+# userInput =  input("enter a list of number seperated by comma(,) : ")
+# userTuple = userInput.split(",")
+# userTuple = tuple(userTuple)
+# # print(userList)
+# print(userTuple)
+# myNumbersList = []
+# i=0
+# while i<len(userTuple):
+#     myNumbersList.append(int(userTuple[i]))
+#     i=i+1
+# print(myNumbersList)
+
+# userInput =  input("enter a list of number seperated by comma(,) : ")
+# userList = userInput.split(",")
+# userTuple = tuple(userList)
+# # print(userList)
+# print(userTuple)
+# myNumbersList = []
+# i=0
+# while i<len(userTuple):
+#     myNumbersList.append(int(userTuple[i]))
+#     i=i+1
+# print(myNumbersList)
+
+
+# userInput =  input("enter a list of number seperated by comma(,) : ")
+# userTuple = userInput.split(",")
+# userTuple = tuple(userTuple)
+# # print(userList)
+# print(userTuple)
+# myNumbersList = ()
+# i=0
+# while i<len(userTuple):
+#     myNumbersList.append(int(userTuple[i]))
+#     i=i+1
+# print(myNumbersList)
+
+# userInput =  input("enter a list of number seperated by comma(,) : ")
+# userTuple = userInput.split(",")
+# userTuple = tuple(userTuple)
+# # print(userList)
+# print(userTuple)
+# myNumbersList = []
+# i=0
+# while i<len(userTuple):
+#     myNumbersList.append(int(userTuple[i]))
+#     i=i+1
+# print(myNumbersList)
+
+
+# userInput =  input("enter a list of number seperated by comma(,) : ")
+# # # "10,20,30"
+# userList = userInput.split(",")
+# # userTuple = tuple(userList)
+# print(userList)
+# # print(userTuple)
+# myNumbersList = ()
+# i=0
+# while i<len(userList):
+#     myNumbersList.append(int(userList(i)))
+#     i=i+1
+# print(myNumbersList)
+
+
+# userList = []
+# userInput = input("enter a list of number seperated by comma(,) : ")
+# userList = userInput.split(",")
+# i = 0
+# while i<len(userList):
+#     userList.append(int(userList[i]))
+#     i=i+1
+#     print(userList)
+    
+
+
+# userList = []
+# userInput = input("enter a list of number seperated by comma(,) : ")
+# userList = userInput.split(",")
+# i = 0
+# while i<len(userList):
+#     userList.append(int(userList[i]))
+#     i=i+1
+#     print(userList)
+    
+
 userInput =  input("enter a list of number seperated by comma(,) : ")
-# "10,20,30"
 userList = userInput.split(",")
-userTuple = tuple(userList)
+# userTuple = tuple(userTuple)
 print(userList)
-print(userTuple)
-
-
-
-
-
+# print(userTuple)
+myNumbersList = []
+i=0
+while i<len(userList):
+    myNumbersList.append(int(userList[i]))
+    i=i+1
+print(myNumbersList)
 
 
 
