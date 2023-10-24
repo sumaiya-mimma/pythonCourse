@@ -96,8 +96,42 @@
     
 
 #24
-userInput = (input("enter a letter:"))
-if(userInput == "vowel"):
-    print(userInput, "is a vowel")
-else:
-    print(userInput, "is not a vowel")
+# userInput = (input("enter a letter:"))
+# if(userInput == "vowel"):
+#     print(userInput, "is a vowel")
+# else:
+#     print(userInput, "is not a vowel")
+
+#15
+# import math
+# print(math.pi)
+
+# r = 6
+# volumeOfSphere = 4/3*3.14159*6*3
+# print(volumeOfSphere)
+
+#38
+#
+
+#37
+# student = ("patrick", 23, "24th street,california")
+# (name,age,address)=student
+# print("name:", name)
+# print("age:", age)
+# print("age:", address)
+
+#39
+pa = 10000
+int = 3.5
+yr = 7
+fv = ((pa)/((1+3.5)*7))
+print(fv)
+
+#30
+base = 56
+height = 56
+area = ((base*height)/2)
+print(area)
+
+ 
+
