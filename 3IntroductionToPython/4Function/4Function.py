@@ -91,23 +91,38 @@
 
 
 def simpleEquation(x):
-    return "(x**2+(x-1))", x**2+(x-1),  (x,'**2+(','-1)')
+    return "(x ** 2 + ( x -1 ))", x**2+(x-1), x,'**2 + (','-1 )', x**2,'+',(x-1),  
 
 
 
 userValue = int(input("enter  number"))
 print(simpleEquation(2)[0])
-print(simpleEquation(userValue)[2],simpleEquation(userValue)[3],simpleEquation(userValue)[2],
-simpleEquation(userValue)[4])
+print(simpleEquation(userValue)[2],simpleEquation(userValue)[3],simpleEquation(userValue)[2],simpleEquation(userValue)[4])
+print(simpleEquation(userValue)[5],simpleEquation(userValue)[6],simpleEquation(userValue)[7])
 print(simpleEquation(userValue)[1])
 
 
-# def equation(x):
-#     return "x**2+(x-1)", 
+# def equation(x,y):
+#     return "((x + y) * 2 + (x - y) % 2)", (x),'+',(y),*2, '+', (x),'-',(y), '%2'
+
+
+# print(equation(4,4)[0])
+# print(equation(4,4)[1],equation(4,4)[2],equation(4,4)[3],equation(4,4)[4],equation(4,4)[5],
+#       equation(4,4)[6],equation(4,4)[7],equation(4,4)[8],equation(4,4)[9])
 
 
 
 
+def simpleEquation(x):
+    return "(x ** 2 + ( x -1 ))", x,'**2 + (','-1 )', x**2,'+',(x-1),  x**2+(x-1)
+
+
+
+userValue = int(input("enter  number"))
+print(simpleEquation(2)[0])
+print(simpleEquation(userValue)[1],simpleEquation(userValue)[2])
+print(simpleEquation(userValue)[3],simpleEquation(userValue)[4],simpleEquation(userValue)[5])
+print(simpleEquation(userValue)[6])
 
 
 
