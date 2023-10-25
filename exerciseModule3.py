@@ -1,11 +1,11 @@
 #16
-userInput = int(input("enter a number : "))
-if(userInput>17):
-    print((userInput-17)*2)
-elif(userInput<17):
-    print(userInput, "less than 17")
-else:
-    print("false")
+# userInput = int(input("enter a number : "))
+# if(userInput>17):
+#     print((userInput-17)*2)
+# elif(userInput<17):
+#     print(userInput, "less than 17")
+# else:
+#     print("false")
 
  
     
@@ -73,8 +73,9 @@ else:
 
 # #8
 # myList = ["red","green","white","black"]
-# print(myList[0])
-# print(myList[-1])
+# newList = [myList[0], myList[3]]
+# print(newList)
+
 
 
 
@@ -126,9 +127,9 @@ else:
  
     
 
-#24
+# 24
 # userInput = (input("enter a letter:"))
-# if(userInput == "vowel"):
+# if(userInput == "a" or userInput == "e" or userInput == "i" or userInput == "o" or userInput == "u" or userInput == "A" or userInput == "E" or userInput == "I" or userInput == "O" or userInput == "U"):
 #     print(userInput, "is a vowel")
 # else:
 #     print(userInput, "is not a vowel")
@@ -271,4 +272,44 @@ else:
 #     if((numbers[i]%2)==0):
 #      print(numbers[i])
 
-print("hello world")
+
+
+# 
+arr = []
+arrLen = int(input("how many elements you have got:"))
+if(arrLen>=0):
+    print(type(arrLen))
+    for i in range(arrLen):
+        print("enter your elements name:")
+        element = str(input())
+        arr.append(element)
+    print(arr)
+    if(arrLen%2!=0):
+        newArr = [arr[((arrLen+1)//2)-1]]
+    elif(arrLen%2==0):
+        newArr = [ arr[(arrLen//2)-1], arr[((arrLen//2)+1)-1] ]
+        # newArr = [ arr[(arrLen//2)-1], arr[(arrLen//2)] ]
+    print(newArr)
+elif(arrLen<0):
+    print("Enter a poitive number")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
