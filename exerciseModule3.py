@@ -1,11 +1,13 @@
 #16
-# userInput = int(input("enter a number : "))
-# if(userInput>17):
-#     print((userInput-17)*2)
-# elif(userInput<17):
-#     print(userInput, "less than 17")
-# else:
-#     print("false")
+userInput = int(input("enter a number : "))
+if(userInput>17):
+    print((userInput-17)*2)
+elif(userInput<17):
+    print(userInput, "less than 17")
+else:
+    print("false")
+
+ 
     
     
 #18
@@ -20,6 +22,9 @@
 #     i = i+1
 # if("number 1" == "number 2" == "number 3"):
 #     print(("number 1" + "number 2" + "number 3")*3)
+ 
+ 
+ 
     
 #  #18   
     
@@ -39,7 +44,7 @@
 
 
     
-#14
+#14?
 # date1 = (2014,7,11)
 # date2 = (2014,7,2)
 # days = date1 - date2
@@ -50,12 +55,21 @@
 # delta = date1 - date2
 # print(delta.days)
 
-#10
+
+
+#10?
 # n = 5
 # print(n+n*n+n*n*n)
 
+
+
+
 #13
 # print("""a string that you \"don\'t\" \nthis \nis a........multi-line  \nheredoc string-----------> example""")
+
+
+
+
 
 # #8
 # myList = ["red","green","white","black"]
@@ -64,14 +78,25 @@
 
 
 
+
+
+
 #7
 # fileName= input("enter a file name : ")
 # extension = fileName.split(".")[-1]
 # print(extension)
 
+
+
+
+
 #9
 # exam_st_date = (11,12,2014)
 # print("the examination will start from:" %exam_st_date)
+
+
+
+
 
 #12
 # import calendar
@@ -80,6 +105,9 @@
 # year = int(input("enter an year : "))
 # print(year)
 # def printyear(calender):
+
+
+
 
 
 #22
@@ -93,6 +121,9 @@
 #     i = i+1
 # print(arr)
 # if("arr", has element, "4"):
+ 
+ 
+ 
     
 
 #24
@@ -102,6 +133,9 @@
 # else:
 #     print(userInput, "is not a vowel")
 
+
+
+
 #15
 # import math
 # print(math.pi)
@@ -109,6 +143,9 @@
 # r = 6
 # volumeOfSphere = 4/3*3.14159*6*3
 # print(volumeOfSphere)
+
+
+
 
 #38
 #
@@ -120,6 +157,9 @@
 # print("age:", age)
 # print("age:", address)
 
+
+
+
 #39
 # pa = 10000
 # int = 3.5
@@ -127,11 +167,17 @@
 # fv = ((pa)/((1+3.5)*7))
 # print(fv)
 
+
+
+
 #30
 # base = 56
 # height = 56
 # area = ((base*height)/2)
 # print(area)
+
+
+
 
 # numbers = [    
 #     386, 462, 47, 418, 907, 344, 236, 375, 823, 566, 597, 978, 328, 615, 953, 345, 
@@ -148,6 +194,10 @@
 
 
 
+
+
+
+#33
 # number1 = int(input("enter a number : "))
 # print(number1)
 # number2 = int(input("enter a number : "))
@@ -159,6 +209,9 @@
 #     print(sum, "is 0")
 # else:
 #     print("not equal")
+
+
+
 
 
 #34
@@ -173,7 +226,13 @@
 # else:
 #     print("false")
 
+
+
+
+
+
 #38?
+
 # number1 = int(input("enter a number : "))
 # print(number1)
 # number2 = int(input("enter a number : "))
@@ -185,31 +244,31 @@
 # else:
 #     print("false")
 
+
+
+
+#40?
+
+
 # x = ("x1","y1")
 # y = ("x2","y2")
 # (x3,y3
+ 
+ 
             
-a = [1,3,5,7,9,11,13,15,17,19,21]
+#28?
+
+# numbers = [ 
+#            386, 462, 47, 418, 907, 344, 236, 375, 823, 566, 597, 978, 328, 615, 953, 345, 
+#     399, 162, 758, 219, 918, 237, 412, 566, 826, 248, 866, 950, 626, 949, 687, 217, 
+#     815, 67, 104, 58, 512, 24, 892, 894, 767, 553, 81, 379, 843, 831, 445, 742, 717, 
+#     958,743, 527 
+#     ]
 # i = 0
-# while i<=22:
-#     print(a[1])
-#     (a[i])+=1
-#     if(((a[i])%3)==0):
-#         print(a[i])
-#         result =a//3
-#         print((a[i]), "is", result, "times multipliable by 3")
+# while i<=52:
+#     print(numbers[i])
+#     (numbers[i])-1
+#     if((numbers[i]%2)==0):
+#      print(numbers[i])
 
-numbers = [ 
-           386, 462, 47, 418, 907, 344, 236, 375, 823, 566, 597, 978, 328, 615, 953, 345, 
-    399, 162, 758, 219, 918, 237, 412, 566, 826, 248, 866, 950, 626, 949, 687, 217, 
-    815, 67, 104, 58, 512, 24, 892, 894, 767, 553, 81, 379, 843, 831, 445, 742, 717, 
-    958,743, 527 
-    ]
-i = 0
-while i<=52:
-    print(numbers[i])
-    (numbers[i])-1
-    if((numbers[i]%2)==0):
-     print(numbers[i])
-
-
+print("hello world")
