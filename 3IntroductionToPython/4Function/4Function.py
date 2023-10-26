@@ -90,16 +90,16 @@
 
 
 
-def simpleEquation(x):
-    return "(x ** 2 + ( x -1 ))", x**2+(x-1), x,'**2 + (','-1 )', x**2,'+',(x-1),  
+# def simpleEquation(x):
+#     return "(x ** 2 + ( x -1 ))", x**2+(x-1), x,'**2 + (','-1 )', x**2,'+',(x-1),  
 
 
 
-userValue = int(input("enter  number"))
-print(simpleEquation(2)[0])
-print(simpleEquation(userValue)[2],simpleEquation(userValue)[3],simpleEquation(userValue)[2],simpleEquation(userValue)[4])
-print(simpleEquation(userValue)[5],simpleEquation(userValue)[6],simpleEquation(userValue)[7])
-print(simpleEquation(userValue)[1])
+# userValue = int(input("enter  number"))
+# print(simpleEquation(2)[0])
+# print(simpleEquation(userValue)[2],simpleEquation(userValue)[3],simpleEquation(userValue)[2],simpleEquation(userValue)[4])
+# print(simpleEquation(userValue)[5],simpleEquation(userValue)[6],simpleEquation(userValue)[7])
+# print(simpleEquation(userValue)[1])
 
 
 # def equation(x,y):
