@@ -265,12 +265,17 @@
 #     815, 67, 104, 58, 512, 24, 892, 894, 767, 553, 81, 379, 843, 831, 445, 742, 717, 
 #     958,743, 527 
 #     ]
-# i = 0
-# while i<=52:
-#     print(numbers[i])
-#     (numbers[i])-1
-#     if((numbers[i]%2)==0):
-#      print(numbers[i])
+# for i in numbers:
+#         if((i%2)==0):
+#             newNumbers =(numbers  [i])
+#             i=i+1
+#         print(newNumbers)
+        
+   
+
+
+
+# {how to minus days from two dates}
 
 #
 # from datetime import date
@@ -293,35 +298,95 @@
 
 # print(deltaDifference)
 
-from datetime import date
+# from datetime import date
 
-firstDay = date(2017,11,3)
-secondDay = date(2021,11,11)
+# firstDay = date(2017,11,3)
+# secondDay = date(2021,11,11)
 
-deltaDifference = secondDay - firstDay
+# deltaDifference = secondDay - firstDay
 
-year = (deltaDifference // 365)
-# left_days = (deltaDifference - (deltaDifference//365) * 365)
-# months = (left_days/30) 
-# week = (months/7)
-# day = (months/7/24)
+# year = (deltaDifference // 365)
+
+# ("""# left_days = (deltaDifference - (deltaDifference//365) * 365)
+# # months = (left_days/30) 
+# # week = (months/7)
+# # day = (months/7/24)""")
 
 
-print(deltaDifference)
-print("the no. of year is : ", year)
-# print("the no. of left_days is : ", left_days)
+# print(deltaDifference)
+# print("the no. of year is : ", year)
+
+# ("""print("the no. of left_days is : ", left_days)
 # print("the no of month is : ", months)
 # print("the no of week is : ", week)
-# print("the no of day is : ", day)
+# print("the no of day is : ", day)""")
 
 
-# print(1000//365)
-# days =1000-(1000//365)*365
+# ("""# print(1000//365)
+#  days =1000-(1000//365)*365
 # print(1000%365%30)#month
 # print(33//7)
 # one_year = deltaDifference/365
 # week = deltaDifference/7
-# print(',',one_year)
+# print(',',one_year)""")
+
+
+#how to display exam date
+
+# exam_date = (10,10,2020)
+# print('the exam will be starting from %a/%a/%a'%exam_date)
+
+# double exam dates
+
+# exam_dates = (10,10,2020 , 16,10,2020)
+# print('the exam will be held from %a/%a/%a to %a/%a/%a'%exam_dates)
+
+
+#how to get distance of two points
+
+# x1 = float(input("enter a value for x1 : "))
+# x2 = float(input("enter a value for x2 :"))
+
+# y1 = float(input("enter a value for y1 : "))
+# y2 = float(input("enter a value for y2:"))
+
+# import math
+# distance = math.sqrt(((x2-x1)**2+(y2-y1)**2))
+
+# print(distance)
+# print(type(distance))
+
+# x1 = int(input("enter a value for x1 : "))
+# x2 = int(input("enter a value for x2 :"))
+
+# y1 = int(input("enter a value for y1 : "))
+# y2 = int(input("enter a value for y2:"))
+
+# import math
+# distance = math.sqrt(((x2-x1)**2+(y2-y1)**2))
+
+# print(distance)
+# print(type(distance))
+
+
+
+#getting first and last string from list
+
+# list1 = ['black', 'white' ,'lavender','violet']
+# print(list1)
+
+# list2 = (list1[1],list1[3])
+# print(list2)
+
+import calendar
+
+year = int(input("enter an year : "))
+month = int(input("enter a month:"))
+date = int(input("enter a date"))
+print("\n",calendar.month(year,month,date))
+
+
+
 
 # # 
 # arr = []
@@ -342,6 +407,22 @@ print("the no. of year is : ", year)
 # elif(arrLen<0):
 #     print("Enter a poitive number")
     
+# arr = []
+# arrLen = int(input("how many elements you have got:"))
+# if(arrLen>=0):
+#     print(type(arrLen))
+#     for i in range(arrLen):
+#         print("enter your elements name:")
+#         element = str(input())
+#         arr.append(element)
+#     print(arr)
+#     newArr = [arr[0],arr[3]]
+#     print(newArr)
+
+    
+       
+
+
 
 
 
