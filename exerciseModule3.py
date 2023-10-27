@@ -272,26 +272,56 @@
 #     if((numbers[i]%2)==0):
 #      print(numbers[i])
 
+#
+# from datetime import date
+
+# firstDay = date(2017,9,11)
+# secondDay = date(2017,9,3)
+
+# deltaDifference = firstDay - secondDay
+
+# print(deltaDifference)
 
 
-# 
-arr = []
-arrLen = int(input("how many elements you have got:"))
-if(arrLen>=0):
-    print(type(arrLen))
-    for i in range(arrLen):
-        print("enter your elements name:")
-        element = str(input())
-        arr.append(element)
-    print(arr)
-    if(arrLen%2!=0):
-        newArr = [arr[((arrLen+1)//2)-1]]
-    elif(arrLen%2==0):
-        newArr = [ arr[(arrLen//2)-1], arr[((arrLen//2)+1)-1] ]
-        # newArr = [ arr[(arrLen//2)-1], arr[(arrLen//2)] ]
-    print(newArr)
-elif(arrLen<0):
-    print("Enter a poitive number")
+
+from datetime import date
+
+firstDay = date(2017,9,3)
+secondDay = date(2017,9,11)
+
+deltaDifference = secondDay - firstDay
+
+print(deltaDifference)
+
+from datetime import date
+
+firstDay = date(2017,9,3)
+secondDay = date(2018,9,11)
+
+deltaDifference = secondDay - firstDay
+
+print(deltaDifference)
+print(deltaDifference/365)
+
+# # 
+# arr = []
+# arrLen = int(input("how many elements you have got:"))
+# if(arrLen>=0):
+#     print(type(arrLen))
+#     for i in range(arrLen):
+#         print("enter your elements name:")
+#         element = str(input())
+#         arr.append(element)
+#     print(arr)
+#     if(arrLen%2!=0):
+#         newArr = [arr[((arrLen+1)//2)-1]]
+#     elif(arrLen%2==0):
+#         newArr = [ arr[(arrLen//2)-1], arr[((arrLen//2)+1)-1] ]
+#         # newArr = [ arr[(arrLen//2)-1], arr[(arrLen//2)] ]
+#     print(newArr)
+# elif(arrLen<0):
+#     print("Enter a poitive number")
+    
 
 
 
