@@ -284,24 +284,44 @@
 
 
 
+# from datetime import date
+
+# firstDay = date(2017,9,3)
+# secondDay = date(2017,9,11)
+
+# deltaDifference = secondDay - firstDay
+
+# print(deltaDifference)
+
 from datetime import date
 
-firstDay = date(2017,9,3)
-secondDay = date(2017,9,11)
+firstDay = date(2017,11,3)
+secondDay = date(2021,11,11)
 
 deltaDifference = secondDay - firstDay
 
-print(deltaDifference)
+year = (deltaDifference // 365)
+# left_days = (deltaDifference - (deltaDifference//365) * 365)
+# months = (left_days/30) 
+# week = (months/7)
+# day = (months/7/24)
 
-from datetime import date
-
-firstDay = date(2017,9,3)
-secondDay = date(2018,9,11)
-
-deltaDifference = secondDay - firstDay
 
 print(deltaDifference)
-print(deltaDifference/365)
+print("the no. of year is : ", year)
+# print("the no. of left_days is : ", left_days)
+# print("the no of month is : ", months)
+# print("the no of week is : ", week)
+# print("the no of day is : ", day)
+
+
+# print(1000//365)
+# days =1000-(1000//365)*365
+# print(1000%365%30)#month
+# print(33//7)
+# one_year = deltaDifference/365
+# week = deltaDifference/7
+# print(',',one_year)
 
 # # 
 # arr = []
