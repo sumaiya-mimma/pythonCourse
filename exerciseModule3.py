@@ -275,7 +275,7 @@
 
 
 
-# {how to minus days from two dates}
+# {how to minus days from two dates} 1
 
 #
 # from datetime import date
@@ -331,7 +331,7 @@
 # print(',',one_year)""")
 
 
-#how to display exam date
+#how to display exam date 2
 
 # exam_date = (10,10,2020)
 # print('the exam will be starting from %a/%a/%a'%exam_date)
@@ -342,7 +342,7 @@
 # print('the exam will be held from %a/%a/%a to %a/%a/%a'%exam_dates)
 
 
-#how to get distance of two points
+#how to get distance of two points 3
 
 # x1 = float(input("enter a value for x1 : "))
 # x2 = float(input("enter a value for x2 :"))
@@ -370,7 +370,7 @@
 
 
 
-#getting first and last string from list
+#getting first and last string from list  4
 
 # list1 = ['black', 'white' ,'lavender','violet']
 # print(list1)
@@ -378,12 +378,64 @@
 # list2 = (list1[1],list1[3])
 # print(list2)
 
-import calendar
 
-year = int(input("enter an year : "))
-month = int(input("enter a month:"))
-date = int(input("enter a date"))
-print("\n",calendar.month(year,month,date))
+#calender 5
+
+
+# import calendar
+
+# year = int(input("enter an year : "))
+# month = int(input("enter a month:"))
+# date = int(input("enter a date"))
+# print("\n",calendar.month(year,month,date))
+
+
+#getting only the duplicates
+
+# list1 = ['black','white','lavender','purple','blue']
+# list2 = ['black','white','grey']
+
+# result = list(set(list1) & set(list2))
+# print(result)
+
+
+#getting all in one
+
+# list1 = ['black','white','lavender','purple','blue']
+# list2 = ['black','white','grey']
+
+# result = list(set(list1) | set(list2))
+# print(result)
+
+#removing duplicate items and putting the left ones in one new list
+
+# list1 = ['black','white','lavender','purple','blue']
+# list2 = ['black','white','grey']
+# list3 = list(set(list1) - set(list2))
+# list4 = list(set(list2) - set(list1))
+# print("new List 1:", list3)
+# print("new to List 2:", list4)
+
+# result = list3 + list4
+# print(result)
+
+
+# n = 5
+# print("n"+"nn"+"nnn")
+
+n = 5
+nn = int(str(n) + str(n))  # Concatenate n with itself to get nn
+nnn = int(str(n) + str(n) + str(n))  # Concatenate n with itself thrice to get nnn
+
+result = n + nn + nnn
+print(result)
+
+n = 9
+nn = int(str(n)+str(n))
+nnn = int(str(n)+str(n)+str(n))
+
+result = n + nn +nnn
+print(result)
 
 
 
