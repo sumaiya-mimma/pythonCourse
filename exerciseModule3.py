@@ -1,4 +1,4 @@
-#16
+# 16
 # userInput = int(input("enter a number : "))
 # if(userInput>17):
 #     print((userInput-17)*2)
@@ -10,11 +10,7 @@
  
     
     
-#18
-
-
-
-
+#18 sum
 # userInput = int(input("how many numbers have you got  : "))
 # for i in range(userInput):
 #     print("enter number ", i+1, ":")
@@ -389,7 +385,7 @@
 # date = int(input("enter a date"))
 # print("\n",calendar.month(year,month,date))
 
-
+#double list 6
 #getting only the duplicates
 
 # list1 = ['black','white','lavender','purple','blue']
@@ -420,23 +416,124 @@
 # print(result)
 
 
+
+#how value of n became 615  7
+
 # n = 5
 # print("n"+"nn"+"nnn")
 
-n = 5
-nn = int(str(n) + str(n))  # Concatenate n with itself to get nn
-nnn = int(str(n) + str(n) + str(n))  # Concatenate n with itself thrice to get nnn
 
-result = n + nn + nnn
-print(result)
 
-n = 9
-nn = int(str(n)+str(n))
-nnn = int(str(n)+str(n)+str(n))
+#
+# n = 5
+# nn = int(str(n) + str(n))  # Concatenate n with itself to get nn
+# nnn = int(str(n) + str(n) + str(n))  # Concatenate n with itself thrice to get nnn
 
-result = n + nn +nnn
-print(result)
+# result = n + nn + nnn
+# print(result)
 
+
+# #
+# n = 9
+# nn = int(str(n)+str(n))
+# nnn = int(str(n)+str(n)+str(n))
+
+# result = n + nn +nnn
+# print(result)
+
+
+
+#counting certain number from a list 8
+
+# numbers = [444,456,784,694,774,404,204,420] # Sample list of numbers
+
+
+# count = 0 # Convert each number to a string and count '4' in each string
+
+# for number in numbers:
+#     number_str = str(number)
+#     count += number_str.count('7')
+
+# print("The number 7 appears", count, "times in the list.")
+
+# numbers = [444,456,784,694,774,404,204,420]
+# count = 0
+
+# for number in numbers:
+#     numberStr = str(number)
+#     count+=numberStr.count('9')
+
+# print("the number 9 appears", count, "times in the list")
+
+
+
+# for number in numbers:
+#     numberStr = str(number)
+#     count += numberStr.count('3')
+#     count += numberStr.count('5')
+    
+# print("the number 3 & 5 appears", count,  "times in the list")
+
+
+
+
+
+
+#checking if a number is present in a list and printing true or false 9
+
+
+# myList1 = [1,2,3,4,5]
+
+# if 6 in [1,2,3,4,5]:
+#     print("true") 
+# else:
+#     print("false")
+ 
+# myList2 = [6,7,8,9,10]
+
+# if 11 in [6,7,8,9,10]:
+#          print("true")
+# else:
+#     print("false")
+
+
+# if 3 in [1,2,3,4,5]:
+#     print(True)
+# else:
+#    print(False)
+
+# if 11 in [2,10,9,8]:
+#     print(True)
+# else:
+#     print(False)
+    
+
+# numbers = [386, 462, 47, 418, 907, 344, 236, 375, 823, 566, 597, 978, 328, 615, 953, 345, 399, 162, 758, 219, 918, 237, 412, 566, 826, 248, 866, 950, 626, 949, 687, 217, 
+# 815, 67, 104, 58, 512, 24, 892, 894, 767, 553, 81, 379, 843, 831, 445, 742, 717, 958,743, 527]
+# stopNumber = 237
+
+# evenNumbers = []
+
+# for number in numbers:
+#     if ((number%2)==0) and number<=stopNumber:
+#      evenNumbers.append(numbers)
+     
+#      print(evenNumbers)
+ 
+ 
+# numbers = [386, 462, 47, 418, 907, 344, 236, 375, 823, 566, 597, 978, 328, 615, 953, 345, 399, 162, 758, 219, 918, 237, 412, 566, 826, 248, 866, 950, 626, 949, 687, 217, 
+# 815, 67, 104, 58, 512, 24, 892, 894, 767, 553, 81, 379, 843, 831, 445, 742, 717, 958,743, 527]
+# stopNumber = 237
+     
+# for number in numbers:
+#     if ((number%2)==0):
+#         print(number)
+        
+#         if number == stopNumber:
+#             break
+     
+    
+     
 
 
 
@@ -472,27 +569,145 @@ print(result)
 #     print(newArr)
 
     
+    
+# 40
+    
+# import os
+# def fileExists(filePath):
+#     return os.path.exists(filePath)
+
+# filePath = "python.txt"
+
+# if fileExists(filePath):
+#     print(f"the file '{filePath}' exists")
+# else:
+#     print(f"the file '(filePath)' do not exists")
        
 
+#42
+       
+# import platform
+
+# archInfo = platform.architecture()
+
+# if '32bit' in archInfo:
+#     print("python is running in 32bit mode")
+# else: 
+#     print("python is running in 64bit mode")
+
+
+#3
+
+# userDate = input("enter a date:")
+# userTime = input("enter a time:")
+
+# print(userDate)
+# print(userTime)
+
+
+# userNumber = int(input("enter a number : "))
+
+
+
+# if((userNumber - 1000)<=100 or (userNumber - 2000)<=100):
+#     print("userNumber is within 100 of 1000 or 2000")
+# else:
+#     print("userNumber isn't within 100 of 1000 or 2000")
+
+
+
+#27
+# elements = ('hi','!', ' ','how',' ','are',' ','you',' ','doing','?')
+
+# result = ''.join(elements)
+# print(result)
+
+
+
+#31
+
+# a = int(input("Enter the first number: "))
+# b = int(input("Enter the second number: "))
+# import math
+# gcd = math.gcd(a, b)
+
+# print("GCD of", a, "and", b, "is", gcd)
 
 
 
 
 
+#32
+# a = int(input("Enter the first number: "))
+# b = int(input("Enter the second number: "))
+# import math
+# lcm = math.lcm(a, b)
+
+# print("LCM of", a, "and", b, "is", lcm)
+
+
+# userNumber1 = (input("enter first number:"))
+# userNumber2 = (input("enter second number:"))
+# result = (userNumber1 + userNumber2)
+
+
+
+# if((userNumber1 + userNumber2)==int):
+#     print("result is an integer")
+# else:
+#     print("result is not an integer")
+    
+    
+#43
+# import platform
+
+# osName = platform.system()
+# platformName = platform.platform()
+# infoRelease = platform.release()
+
+# print(osName)
+# print(platformName)
+# print(infoRelease)
+
+import platform
+osName = platform.system()
+platformName = platform.platform()
+infoRelease = platform.release()
+
+print(osName)
+print(platformName)
+print(infoRelease)
+
+#46
+# import os
+
+# filePath = os.path.abspath(__file__)
+
+# fileName = os.path.basename(__file__)
+
+# print(filePath)
+# print(fileName)
 
 
 
 
 
+#47
 
+# import multiprocessing
 
+# numberOfCpusUsed = multiprocessing.cpu_count()
 
+# print(numberOfCpusUsed)
 
+# import os
+# import multiprocessing
 
+# numberOfCpusAvailable = os.cpu_count()
 
+# numberOfCpusUsed = multiprocessing.cpu_count()
 
+# print(numberOfCpusAvailable)
+# print(numberOfCpusUsed')
 
-
-
-
-
+# print(a,end='')

@@ -114,15 +114,15 @@
 
 
 def simpleEquation(x):
-    return "(x ** 2 + ( x -1 ))", x,'**2 + (','-1 )', x**2,'+',(x-1),  x**2+(x-1)
+    return "(x ** 2 + ( x -1 ))", x,'**2 +', x,-1 , x**2,'+',(x-1),  x**2+(x-1)
 
 
 
 userValue = int(input("enter  number"))
-print(simpleEquation(2)[0])
-print(simpleEquation(userValue)[1],simpleEquation(userValue)[2])
-print(simpleEquation(userValue)[3],simpleEquation(userValue)[4],simpleEquation(userValue)[5])
-print(simpleEquation(userValue)[6])
+print(simpleEquation (2) [0])
+print(simpleEquation(userValue)[1],simpleEquation(userValue)[2],((simpleEquation(userValue)[3], simpleEquation(userValue)[4])))
+print(simpleEquation(userValue)[5],simpleEquation(userValue)[6],simpleEquation(userValue)[7])
+print(simpleEquation(userValue)[8])
 
 
 
