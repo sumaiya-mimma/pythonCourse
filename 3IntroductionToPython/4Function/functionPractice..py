@@ -55,8 +55,21 @@
 #     else:
 #         print("no")
 
+# for j in range(4):
+#     numbers = [5,6,7,8,11,12,44,99]
+#     userInput = int(input("enter a number : "))
+#     print(userInput)
 
-# my2DList = [["x",40], ["y",50], ["z",23]]
+#     flag = 0
+#     for i in range(len(numbers)):
+#          if(userInput==numbers[i]):
+#               flag = 100
+        
+#     if (flag == 100):
+#             print("yes")
+#     else:
+#             print("no")
+# # my2DList = [["x",40], ["y",50], ["z",23]]
 
 # largeNumber = 0
 # for i in range(len(my2DList)):
@@ -68,11 +81,13 @@
 # print(largeNumber)
 
 
-my2DList = [["n",60],["m",50],["o",90]]
+# my2DList = [["n",60],["m",50],["o",90]]
 
-largeNumber = 0
-for i in range(len(my2DList)):
-    if((my2DList[i][1])>largeNumber):
-        largeNumber = my2DList[i][1]
+# largeNumber = 0
+# for i in range(len(my2DList)):
+#     if((my2DList[i][1])>largeNumber):
+#         largeNumber = my2DList[i][1]
         
-print(largeNumber)
+# print(largeNumber)
+
+
