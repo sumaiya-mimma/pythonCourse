@@ -1,13 +1,13 @@
 # my1DList = ["a",5,"b",6,"c",8]
 # my2DList = [["an",5],["b",[8,9,10]],["c",8]]
 
-# print(my2DList[0][0][1])
+# # print(my2DList[0])
 
 
-# myStr = "institute"
-# print(myStr[2])
+# # myStr = "institute"
+# # print(myStr[2])
 
-# print(my2DList[2],',', my2DList[0])
+# print(my2DList[2][1],',', my2DList[0])
 
 # otherVariable = [my1DList[4],my1DList[5]]
 # print(otherVariable)
@@ -91,3 +91,21 @@
 # print(largeNumber)
 
 
+userDB = [
+    ['111', 1111, 1000],
+    ['222', 2222, 2000],
+    ['333', 3333, 3000],
+    ['444', 4444, 4000],
+    ['555', 5555, 5000],
+]
+userInput = input("enter your card number : ")
+
+flag = 0
+for i in range(len(userDB)):
+    if((userDB[i][1])==userInput):
+        print("yes")
+        flag = 1
+        break
+if(flag==0):
+    print("no")
+        
