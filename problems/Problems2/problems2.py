@@ -9,25 +9,36 @@
 
 
 
-# userDB = [
-#     ['111', 1111, 1000],
-#     ['222', 2222, 2000],
-#     ['333', 3333, 3000],
-#     ['444', 4444, 4000],
-#     ['555', 5555, 5000],
-# ]
-
-userDB = [1,2,3,4,5,6]
-userCardNumber = int(input("Enter card your card Number : "))
+userDB = [
+    ['111', 1111, 1000],
+    ['222', 2222, 2000],
+    ['333', 3333, 3000],
+    ['444', 4444, 4000],
+    ['555', 5555, 5000],
+]
+userInput = input("enter your card number : ")
 
 flag = 0
 for i in range(len(userDB)):
-    if((userDB[i])==userCardNumber):
+    if((userDB[i][1])==userInput):
         print("yes")
         flag = 1
-        break  
+        break
 if(flag==0):
-    print("No")
+    print("no")
+        
+
+# userDB = [1,2,3,4,5,6]
+# userCardNumber = int(input("Enter card your card Number : "))
+
+# flag = 0
+# for i in range(len(userDB)):
+#     if((userDB[i])==userCardNumber):
+#         print("yes")
+#         flag = 1
+#         break  
+# if(flag==0):
+#     print("No")
         
 
 
