@@ -103,7 +103,6 @@ userInput = input("enter your card number : ")
 flag = 0
 for i in range(len(userDB)):
     if((userDB[i][1])==userInput):
-        print("yes")
         flag = 1
         break
 if(flag==0):
