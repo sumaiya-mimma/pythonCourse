@@ -54,8 +54,7 @@ def deposite(mainBalance):
         mainBalance = mainBalance + amount
         print("Deposit amount         : ", amount)
         print("Your Prervious Balance : ", previousBalance)
-        #transaction cost(taka) = 10 # 10%
-        #mainBalance = mainBalance - transaction cost #mainBalance = mainBalance - 10%
+        
         print("Your  Current Balance  : ", mainBalance)
         return mainBalance
     else:
@@ -72,11 +71,14 @@ def withdraw(mainBalance):
         previousBalance = mainBalance
         if(amount<mainBalance):
             mainBalance = mainBalance - amount
-            print("withdrawn amount         : ", amount)
-            print("Your Prervious Balance : ", previousBalance)
-            print("Your  Current Balance  : ", mainBalance)
             return mainBalance
-        else:
+        transectionFee = 11
+        mainBalance = mainBalance - transectionFee
+        print("withdrawn amount         : ", amount)
+        print("Your Prervious Balance : ", previousBalance)
+        print("Your  Current Balance  : ", mainBalance)
+        return mainBalance
+    else:
             print("You don't have enough Balance!")
             return mainBalance
         
