@@ -2,6 +2,7 @@ def deposit(mainBalance):
     inputPin = int(input("enter your PIN:"))
     # flag = 0
     # for i in range(len(userDB)):
+    # if inputPin == userDB[i][1]:
     if inputPin == userPin:
         #  flag = 1
          userAmount = int(input("enter an amount(USD): "))
@@ -27,8 +28,8 @@ def withdraw(mainBalance):
      print("your previous balance is: ", previousBalance, "USD")
      print("your current balance is :", mainBalance, "USD")
      print("your transaction cost : " ,0.5, "USD")
-# mainBalance = 10000
-# userPin = 1234
+# mainBalance = 3000
+# userPin = 01.08.2000
 userDB = [
      ['1010','1008', '1000'],
      ['2010','0108', '2000'],
