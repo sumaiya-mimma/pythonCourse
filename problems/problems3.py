@@ -206,16 +206,21 @@
 
 
 #12
-numbers = []
+# numbers = []
+# userInput = input("enter a list of numbers:")
+# # userNumbers = userInput.split(",")
+# for i in range(len(userInput)):
+#     numbers.append(userInput[i])
+#     # print(numbers)
+# from itertools import permutations
+# def generatePermutations(numbers):
+#     permutation = permutations(numbers)
+#     permutationList = list(permutation)
+#     for permutation in permutationList:
+#         print(permutation)
+# generatePermutations(numbers)
+
+
 userInput = input("enter a list of numbers:")
-# userNumbers = userInput.split(",")
-for i in range(len(userInput)):
-    numbers.append(userInput[i])
-    # print(numbers)
-from itertools import permutations
-def generatePermutations(numbers):
-    permutation = permutations(numbers)
-    permutationList = list(permutation)
-    for permutation in permutationList:
-        print(permutation)
-generatePermutations(numbers)
+userList = userInput.split(",")
+print(userList)
