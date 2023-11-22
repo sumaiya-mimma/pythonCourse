@@ -220,7 +220,10 @@
 #         print(permutation)
 # generatePermutations(numbers)
 
-
+my = []
 userInput = input("enter a list of numbers:")
 userList = userInput.split(",")
 print(userList)
+for i in range(len(userList)):
+    my.append(userList[i])
+    print(my)
