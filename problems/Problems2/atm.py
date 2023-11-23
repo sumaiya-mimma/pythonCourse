@@ -71,13 +71,10 @@ def withdraw(mainBalance):
         previousBalance = mainBalance
         if(amount<mainBalance):
             mainBalance = mainBalance - amount
+            print("withdrawn amount         : ", amount)
+            print("Your Prervious Balance : ", previousBalance)
+            print("Your  Current Balance  : ", mainBalance)
             return mainBalance
-        transectionFee = 11
-        mainBalance = mainBalance - transectionFee
-        print("withdrawn amount         : ", amount)
-        print("Your Prervious Balance : ", previousBalance)
-        print("Your  Current Balance  : ", mainBalance)
-        return mainBalance
     else:
             print("You don't have enough Balance!")
             return mainBalance
