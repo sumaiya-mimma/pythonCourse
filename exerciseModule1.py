@@ -61,9 +61,8 @@ elif((userInput%4)==0):
 else:
     print(userInput, ' is not leap year')
     
-    
-    
-    
+else:
+    print(userInput, ' is not leap year')
     
     
     
